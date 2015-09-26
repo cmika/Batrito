@@ -12965,7 +12965,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac7729dd21b7bcd4185f44d383f7dd15, type: 3}
-  m_RootGameObject: {fileID: 514438849}
   m_IsPrefabParent: 0
 --- !u!1 &1256380742
 GameObject:
@@ -16245,7 +16244,6 @@ Prefab:
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c57d802059f3d1947bce07d59d1b4d08, type: 3}
-  m_RootGameObject: {fileID: 1946179062}
   m_IsPrefabParent: 0
 --- !u!1 &1598819958
 GameObject:
