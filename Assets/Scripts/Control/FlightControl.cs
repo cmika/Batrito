@@ -8,6 +8,7 @@ public class FlightControl : MonoBehaviour {
 	public float maxTiltAngle;
 	public float tiltSpeed;
 	public float spinForce;
+	public GameObject droneModel;
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,8 +31,15 @@ public class FlightControl : MonoBehaviour {
 		
 		Quaternion tilt = Quaternion.Slerp(Quaternion.AngleAxis (tiltAngle, tiltAxis),transform.rotation * NEGATIVESPINSPOOKY, tiltSpeed);
 
-		transform.rotation = tilt;*/
-		
+		droneModel.transform.rotation = tilt;*/
+
+
+
+		Vector3 inputVector = new Vector3 (Input.GetAxis ("Left/Right"),
+		                                   0,
+		                                   Input.GetAxis ("Front/Back"));
+		drone.AddRelativeForce (inputVector * tiltSpeed);
+
 		// Resist Gravity
 		Vector3 force = new Vector3 ();
 		force += new Vector3 (0, -Physics.gravity.y, 0);
