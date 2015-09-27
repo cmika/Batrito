@@ -6,10 +6,25 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: attitude-panel
+    100004: map-display
+    100006: task-display
     400000: //RootNode
+    400002: attitude-panel
+    400004: map-display
+    400006: task-display
     2300000: //RootNode
+    2300002: attitude-panel
+    2300004: map-display
+    2300006: task-display
     3300000: //RootNode
+    3300002: attitude-panel
+    3300004: map-display
+    3300006: task-display
     4300000: panel
+    4300002: task-display
+    4300004: map-display
+    4300006: attitude-panel
     7400000: Default Take
     9500000: //RootNode
   materials:

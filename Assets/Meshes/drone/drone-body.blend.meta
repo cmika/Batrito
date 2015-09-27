@@ -6,10 +6,39 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Circle
+    100004: Plane
+    100006: attitude-panel
+    100008: drone
+    100010: map-display
+    100012: task-display
     400000: //RootNode
+    400002: Circle
+    400004: Plane
+    400006: attitude-panel
+    400008: drone
+    400010: map-display
+    400012: task-display
     2300000: //RootNode
+    2300002: Circle
+    2300004: Plane
+    2300006: attitude-panel
+    2300008: drone
+    2300010: map-display
+    2300012: task-display
     3300000: //RootNode
+    3300002: Circle
+    3300004: Plane
+    3300006: attitude-panel
+    3300008: drone
+    3300010: map-display
+    3300012: task-display
     4300000: Circle
+    4300002: Plane
+    4300004: attitude-panel
+    4300006: drone
+    4300008: task-display
+    4300010: map-display
     7400000: Default Take
     9500000: //RootNode
   materials:
