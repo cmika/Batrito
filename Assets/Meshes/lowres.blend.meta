@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: dcea1e2cecc63d246a720a63ac2033ce
+timeCreated: 1443313692
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lowres-bounds
+    100004: lowres-bounds_001
+    100006: lowres-bounds_002
+    100008: lowres-bounds_003
+    100010: lowres-bounds_004
+    100012: lowres-bounds_005
+    100014: lowres-bounds_006
+    100016: lowres-bounds_007
+    100018: lowres-bounds_008
+    100020: lowres-bounds_009
+    100022: lowres-bounds_010
+    100024: lowres-bounds_011
+    100026: lowres-bounds_012
+    100028: lowres-bounds_013
+    100030: lowres-bounds_014
+    100032: lowres-bounds_015
+    100034: lowres-bounds_016
+    100036: lowres-bounds_017
+    100038: lowres-bounds_018
+    100040: lowres-bounds_019
+    100042: lowres-bounds_020
+    100044: lowres-bounds_021
+    100046: lowres-bounds_022
+    100048: lowres-bounds_023
+    100050: lowres-bounds_024
+    100052: lowres-bounds_025
+    100054: lowres-bounds_026
+    400000: //RootNode
+    400002: lowres-bounds
+    400004: lowres-bounds_001
+    400006: lowres-bounds_002
+    400008: lowres-bounds_003
+    400010: lowres-bounds_004
+    400012: lowres-bounds_005
+    400014: lowres-bounds_006
+    400016: lowres-bounds_007
+    400018: lowres-bounds_008
+    400020: lowres-bounds_009
+    400022: lowres-bounds_010
+    400024: lowres-bounds_011
+    400026: lowres-bounds_012
+    400028: lowres-bounds_013
+    400030: lowres-bounds_014
+    400032: lowres-bounds_015
+    400034: lowres-bounds_016
+    400036: lowres-bounds_017
+    400038: lowres-bounds_018
+    400040: lowres-bounds_019
+    400042: lowres-bounds_020
+    400044: lowres-bounds_021
+    400046: lowres-bounds_022
+    400048: lowres-bounds_023
+    400050: lowres-bounds_024
+    400052: lowres-bounds_025
+    400054: lowres-bounds_026
+    2300000: lowres-bounds
+    2300002: lowres-bounds_001
+    2300004: lowres-bounds_002
+    2300006: lowres-bounds_003
+    2300008: lowres-bounds_004
+    2300010: lowres-bounds_005
+    2300012: lowres-bounds_006
+    2300014: lowres-bounds_007
+    2300016: lowres-bounds_008
+    2300018: lowres-bounds_009
+    2300020: lowres-bounds_010
+    2300022: lowres-bounds_011
+    2300024: lowres-bounds_012
+    2300026: lowres-bounds_013
+    2300028: lowres-bounds_014
+    2300030: lowres-bounds_015
+    2300032: lowres-bounds_016
+    2300034: lowres-bounds_017
+    2300036: lowres-bounds_018
+    2300038: lowres-bounds_019
+    2300040: lowres-bounds_020
+    2300042: lowres-bounds_021
+    2300044: lowres-bounds_022
+    2300046: lowres-bounds_023
+    2300048: lowres-bounds_024
+    2300050: lowres-bounds_025
+    2300052: lowres-bounds_026
+    2300054: //RootNode
+    3300000: lowres-bounds
+    3300002: lowres-bounds_001
+    3300004: lowres-bounds_002
+    3300006: lowres-bounds_003
+    3300008: lowres-bounds_004
+    3300010: lowres-bounds_005
+    3300012: lowres-bounds_006
+    3300014: lowres-bounds_007
+    3300016: lowres-bounds_008
+    3300018: lowres-bounds_009
+    3300020: lowres-bounds_010
+    3300022: lowres-bounds_011
+    3300024: lowres-bounds_012
+    3300026: lowres-bounds_013
+    3300028: lowres-bounds_014
+    3300030: lowres-bounds_015
+    3300032: lowres-bounds_016
+    3300034: lowres-bounds_017
+    3300036: lowres-bounds_018
+    3300038: lowres-bounds_019
+    3300040: lowres-bounds_020
+    3300042: lowres-bounds_021
+    3300044: lowres-bounds_022
+    3300046: lowres-bounds_023
+    3300048: lowres-bounds_024
+    3300050: lowres-bounds_025
+    3300052: lowres-bounds_026
+    3300054: //RootNode
+    4300000: lowres-bounds_026
+    4300002: lowres-bounds_025
+    4300004: lowres-bounds_024
+    4300006: lowres-bounds_023
+    4300008: lowres-bounds_022
+    4300010: lowres-bounds_021
+    4300012: lowres-bounds_020
+    4300014: lowres-bounds_019
+    4300016: lowres-bounds_018
+    4300018: lowres-bounds_017
+    4300020: lowres-bounds_016
+    4300022: lowres-bounds_015
+    4300024: lowres-bounds_014
+    4300026: lowres-bounds_013
+    4300028: lowres-bounds_012
+    4300030: lowres-bounds_011
+    4300032: lowres-bounds_010
+    4300034: lowres-bounds_009
+    4300036: lowres-bounds_008
+    4300038: lowres-bounds_007
+    4300040: lowres-bounds_006
+    4300042: lowres-bounds_005
+    4300044: lowres-bounds_004
+    4300046: lowres-bounds_003
+    4300048: lowres-bounds_002
+    4300050: lowres-bounds_001
+    4300052: lowres-bounds
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

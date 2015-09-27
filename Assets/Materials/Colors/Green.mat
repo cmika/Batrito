@@ -127,6 +127,14 @@ Material:
         first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: _BumpAmt
+        second: 10
+      data:
+        first:
+          name: _TintAmt
+        second: .100000001
     m_Colors:
       data:
         first:
