@@ -15,6 +15,7 @@ public class ObjectiveList : MonoBehaviour {
 	}
 
 	void StartObjective (int number) {
+		print (objectives[number].name);
 		if (number != objectives.Length) {
 			currentObjective = number;
 			objectives [number].Begin ();

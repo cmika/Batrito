@@ -4,7 +4,7 @@ using System.Collections;
 
 public class RecenterCamera : MonoBehaviour {
     void Update() {
-        if(Input.GetKeyDown(KeyCode.Space)) {
+        if(Input.GetButtonDown("ResetCamera")) {
             InputTracking.Recenter();
         }
     }
