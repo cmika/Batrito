@@ -6,6 +6,8 @@ public class ShotgunMicObjective : Objective {
 	private bool isTriggering = false;
 	private bool isInsideTrigger = false;
 	private bool isButtonPushed = false;
+
+    public GameObject audiosource;
 	
 	void Update() {
 		if (Input.GetButtonDown ("ShotgunMic")) {
@@ -23,6 +25,8 @@ public class ShotgunMicObjective : Objective {
 	
 	public override void Begin () {
 		base.Begin ();
+
+    audiosource.GetComponent<AudioSource>().Play();
 		
 		isTriggering = true;
 	}
@@ -32,6 +36,7 @@ public class ShotgunMicObjective : Objective {
 		isTriggering = false;
 		isInsideTrigger = false;
 		ResetTimer ();
+    audiosource.GetComponent<AudioSource>().Stop();
 	}
 	
 	void OnTriggerEnter(Collider other) {

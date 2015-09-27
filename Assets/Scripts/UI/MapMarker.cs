@@ -12,6 +12,7 @@ public class MapMarker : MonoBehaviour {
         var y = (300 - target.transform.position.z) / 300;
         x = x * (3.8f * 2) - 3.8f;
         y = y * (3.8f * 2) - 3.8f;
+        y = y * -1;
 
         this.transform.localPosition = new Vector3(x, y, 2);
     }

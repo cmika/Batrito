@@ -15,7 +15,7 @@ public class UIPanel : MonoBehaviour {
 
     void Start() {
         fromPosition = transform.localPosition;
-        fromRotation = transform.rotation;
+        fromRotation = transform.localRotation;
         fromScale = transform.localScale;
     }
 
@@ -34,7 +34,7 @@ public class UIPanel : MonoBehaviour {
 
         transform.localPosition = Vector3.Lerp(fromPosition, to.transform.localPosition + fromPosition, progress);
         transform.localScale = Vector3.Lerp(fromScale, to.transform.localScale, progress);
-        transform.rotation = Quaternion.Lerp(fromRotation, to.transform.rotation, progress);
+        transform.localRotation = Quaternion.Lerp(fromRotation, to.transform.localRotation * fromRotation, progress);
 
     }
 }
