@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: GlassRefractive
+  m_Name: Glass
   m_Shader: {fileID: 4800000, guid: 963484209d11fd7f110076aa44295342, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: ecd9a2c463dcb476891e43d7c9f16ffa, type: 3}
+          m_Texture: {fileID: 2800000, guid: a9047adbde8f4f94da0a0cad05a776bf, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -134,7 +134,7 @@ Material:
       data:
         first:
           name: _BumpAmt
-        second: 8.10000038
+        second: 34.2000008
     m_Colors:
       data:
         first:

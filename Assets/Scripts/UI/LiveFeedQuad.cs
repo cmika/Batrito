@@ -3,6 +3,8 @@ using System.Collections;
 
 public class LiveFeedQuad : MonoBehaviour {
     public Camera target;
+    public GameObject drone;
+    public GameObject ui;
     public float offset;
 
     void Start() {
@@ -16,7 +18,7 @@ public class LiveFeedQuad : MonoBehaviour {
     void Update() {
         float o = target.nearClipPlane + offset;
 
-        transform.position = target.gameObject.transform.position + target.gameObject.transform.forward * o;
-        transform.rotation = target.gameObject.transform.rotation;
+        transform.localPosition = ui.transform.localPosition + Vector3.forward * o;
+        transform.rotation = drone.transform.rotation;
     }
 }

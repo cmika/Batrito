@@ -6,6 +6,7 @@ public class FollowDrone : MonoBehaviour {
     public GameObject drone;
 
     void Update() {
-        this.transform.position = drone.transform.position;
+        this.transform.position = drone.transform.localPosition;
+        this.transform.rotation = drone.transform.rotation;
     }
 }
