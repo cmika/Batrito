@@ -5,6 +5,7 @@
 Shader "FX/Glass/Stained BumpDistort" {
 Properties {
 	_BumpAmt  ("Distortion", range (0,128)) = 10
+  _TintAmt  ("Tint Amount", Range (0, 1)) = 0.1
 	_MainTex ("Tint Color (RGB)", 2D) = "white" {}
 	_BumpMap ("Normalmap", 2D) = "bump" {}
 }
@@ -50,6 +51,7 @@ struct v2f {
 };
 
 float _BumpAmt;
+half _TintAmt;
 float4 _BumpMap_ST;
 float4 _MainTex_ST;
 
@@ -83,8 +85,8 @@ half4 frag (v2f i) : SV_Target
 	i.uvgrab.xy = offset * i.uvgrab.z + i.uvgrab.xy;
 	
 	half4 col = tex2Dproj( _GrabTexture, UNITY_PROJ_COORD(i.uvgrab));
-	half4 tint = tex2D(_MainTex, i.uvmain);
-	col *= tint;
+	half4 tint = tex2D(_MainTex, i.uvmain) * 2;
+	col = lerp(col, tint, _TintAmt);
 	UNITY_APPLY_FOG(i.fogCoord, col);
 	return col;
 }
