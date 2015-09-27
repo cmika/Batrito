@@ -6,10 +6,13 @@ public class FlightControl : MonoBehaviour {
 	public Rigidbody drone;
 	public float throttleForce;
 	public float maxTiltAngle;
+	public float tiltSpeed;
 	
 	// Update is called once per frame
 	void Update () {
-		/*Quaternion spin = Quaternion.AngleAxis (transform.eulerAngles.y, Vector3.up);
+
+		Quaternion spin = Quaternion.AngleAxis (transform.eulerAngles.y, Vector3.up);
+		Quaternion NEGATIVESPINSPOOKY = Quaternion.AngleAxis (-transform.eulerAngles.y, Vector3.up);
 		// Get Left Stick input in World Space
 		Vector3 inputVector = new Vector3 (Input.GetAxis ("Left/Right"),
 		                                  0,
@@ -20,10 +23,12 @@ public class FlightControl : MonoBehaviour {
 
 		Vector3 tiltAxis = new Vector3 (inputVector.x, 0, -inputVector.z);
 
-		Vector3 desiredUpVector = Quaternion.AngleAxis (tiltAngle, tiltAngle) * Vector3.up;
+		Vector3 desiredUpVector = Quaternion.AngleAxis (tiltAngle, tiltAxis) * Vector3.up;
+		
+		Quaternion tilt = Quaternion.Slerp(Quaternion.AngleAxis (tiltAngle, tiltAxis),transform.rotation * NEGATIVESPINSPOOKY, tiltSpeed);
 
-		transform.
-		*/
+		transform.rotation = tilt;
+		
 		// Resist Gravity
 		Vector3 force = new Vector3 (0, -Physics.gravity.y, 0);
 
